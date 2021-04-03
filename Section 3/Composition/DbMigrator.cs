@@ -1,4 +1,4 @@
-namespace Composition
+namespace Section3Composition
 {
     public class DbMigrator
     {

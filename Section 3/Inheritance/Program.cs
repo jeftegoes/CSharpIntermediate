@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inheritance
+namespace Section3Inheritance
 {
     public class Program
     {

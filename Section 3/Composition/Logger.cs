@@ -1,6 +1,6 @@
 using System;
 
-namespace Composition
+namespace Section3Composition
 {
     public class Logger
     {
