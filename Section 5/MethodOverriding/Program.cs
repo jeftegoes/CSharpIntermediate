@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Section5MethodOverriding
 {
@@ -6,7 +7,14 @@ namespace Section5MethodOverriding
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var shapes = new List<Shape>() {
+                new Circle() { Width = 100, Height = 100 },
+                new Rectangle() { Width = 100, Height = 100  },
+                new Triangle() { Width = 100, Height = 100  }
+            };
+
+            var canvas = new Canvas();
+            canvas.DrawnShapes(shapes);
         }
     }
 }

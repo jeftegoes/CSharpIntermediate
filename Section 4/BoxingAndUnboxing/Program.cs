@@ -23,7 +23,7 @@ namespace Section4BoxingAndUnboxing
 
             // Umboxing
             object obj3 = 10;
-            int anotherNumber = (int) obj3;
+            var anotherNumber = (int) obj3;
         }
     }
 }
